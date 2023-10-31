@@ -1,0 +1,29 @@
+// stylesheet 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Define the styles for the square */
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation: squareAnimation 2s ease-in-out infinite alternate; /* Use the defined animation */
+        }
+
+        /* Define the animation */
+        @keyframes squareAnimation {
+            0% {
+                transform: scale(1); /* Initial size */
+            }
+            100% {
+                transform: scale(1.5); /* Scaled size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div> <!-- The square div element with the specified class -->
+</body>
+</html>
